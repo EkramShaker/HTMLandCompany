@@ -1,0 +1,49 @@
+.companyContainer {
+    border: solid rgb(81, 0, 255);
+    border-width: 0.2px;
+    text-align: center;
+    display:flex;
+      flex-wrap:wrap;
+      justify-content: space-evenly;
+      background-color: bisque;
+  }
+  .company {
+    border-radius: 22px;
+    font-size:22px;
+    border: solid grey;
+    margin: 20px;
+    /* width: 100%; */
+    padding: 12px;
+    justify-content: space-evenly;
+    background-color: black;
+    color: white;
+    display: flex
+    ;
+  }
+  
+  #com_a:hover {
+    color: rgb(251, 223, 10);
+    background-color: rgb(81, 191, 228);
+    text-shadow: black;
+  }
+  #com_b:hover {
+    color: rgb(229, 227, 224);
+    background-color: navy;
+  }
+  #com_c:hover {
+    background-color: rgb(141, 187, 141);
+    color: red;
+    text-shadow: black;
+  }
+  #com_d:hover {
+    color: rgb(206, 227, 157);
+    background-color: rgb(164, 109, 164);
+    text-shadow: rgb(83, 83, 180);
+  }
+  .bizPic {
+    margin: 1em;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    border: solid white;
+  }
